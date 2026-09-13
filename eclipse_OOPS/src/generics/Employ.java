@@ -1,0 +1,14 @@
+package generics;
+
+public class Employ<T> {
+	T t;
+
+	Employ(T t) {
+		this.t = t;
+	}
+
+	public String toString() {
+		return "t : " + t;
+	}
+
+}

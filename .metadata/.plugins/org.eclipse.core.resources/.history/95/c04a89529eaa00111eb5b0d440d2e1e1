@@ -1,0 +1,38 @@
+package project.selfAllotedProject;
+
+public class LibraryItem {
+	private String tittle;
+	private int itemId;
+	private boolean isAvailable;
+
+	public void getTittle(String tittle) {
+		this.tittle = tittle;
+		System.out.println("cicago address");
+
+	}
+
+	public void getItemId(int itemId) {
+		this.itemId = itemId;
+		System.out.println("434hi");
+
+	}
+
+	public void getAvailability(boolean isAvailable) {
+		this.isAvailable = isAvailable;
+		System.out.println("true or false");
+	}
+
+	public void getAll(String tittle, int itemId, boolean isAvailable) {
+		this.tittle = tittle;
+		this.itemId = itemId;
+		this.isAvailable = isAvailable;
+
+		System.out.println("Tittle : " + tittle + "\t item id : " + itemId + "\t isAvailable : " + isAvailable);
+	}
+
+	public void borrowItem() {
+		if (isAvailable == true) {
+			isAvailable = false;
+		}
+	}
+}

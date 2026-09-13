@@ -1,0 +1,16 @@
+package generics;
+
+public class EmployDriver {
+
+	public static void main(String[] args) {
+
+		Employ<String> e1 = new Employ<>("sohan");
+
+		System.out.println(e1);
+
+		Employ<Integer> e2 = new Employ<>(24);
+		System.out.println(e2);
+
+	}
+
+}

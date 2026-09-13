@@ -1,0 +1,13 @@
+package project.selfAllotedProject;
+
+public class Book extends LibraryItem {
+	String author;
+	
+	Book(){
+		
+	}
+	Book(String tittle, int itemId,String author){
+		super(tittle,itemId);
+		this.author=author;
+	}
+}

@@ -1,0 +1,19 @@
+package singletonClass.eagerInitialization;
+
+public class Employ {
+	
+	private Employ p = new Employ();
+
+	private Employ() {
+
+	}
+
+	public static Employ getInstance() {
+		return p;
+	}
+
+	public void getDocument(String document) {
+		System.out.println("Document : " + document);
+	}
+
+}
