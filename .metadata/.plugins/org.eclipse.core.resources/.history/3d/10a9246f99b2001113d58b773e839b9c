@@ -1,0 +1,33 @@
+package fileHandling.deserialization;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class DeSerialization {
+
+	public static void main(String[] args) {
+
+		// Deserialization : when we read detials of Object(EMPLOY) from any file then
+		// that is called Deserialization;
+		// It achieve by using FileInputStream, ObjectInputStream
+		//
+
+		try (FileInputStream fis = new FileInputStream("Employ.ser");
+				ObjectInputStream ois = new ObjectInputStream(fis);) {
+			Employ e1 = (Employ) ois.readObject();
+			Employ e2 = (Employ) ois.readObject();
+
+			System.out.println("Employ e1 details are " + e1.getCompany() + " " + e1.getName() + " " + e1.getEmpId()
+					+ " " + e1.getPSWD());
+			System.out.println(e2);
+
+			System.out.println("Deserialization successful");
+		} catch (Exception e) {
+			System.out.println(e);
+			System.out.println(e.getMessage());
+
+		}
+
+	}
+
+}

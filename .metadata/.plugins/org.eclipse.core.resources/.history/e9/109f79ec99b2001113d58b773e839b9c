@@ -1,0 +1,27 @@
+package fileHandling.deserialization;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		try (FileInputStream fis = new FileInputStream("Employ.ser");
+				ObjectInputStream ois = new ObjectInputStream(fis);) {
+
+			Employ o1 = (Employ) ois.readObject();
+			Employ o2 = (Employ) ois.readObject();
+
+			System.out.println("Employ1 is: " + o1.getName());
+			System.out.println("Employ2 is: " + o2.getName());
+			System.out.println("Deserialization is Completed!!");
+
+		} catch (Exception e) {
+			System.out.println(e);
+			System.out.println(e.getMessage());
+			System.out.println("Deserialization is Unsuccessfull!");
+		}
+		System.out.println("=======Application ends========");
+	}
+
+}

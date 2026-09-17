@@ -1,0 +1,17 @@
+package fileHandling.serialization;
+
+public class Employ {
+
+	private String companyName;
+	private String name;
+	private String empId;
+	private String pswd;
+
+	Employ(String companyName, String name, String empId, String pswd) {
+		this.companyName = companyName;
+		this.name = name;
+		this.empId = empId;
+		this.pswd = pswd;
+	}
+
+}

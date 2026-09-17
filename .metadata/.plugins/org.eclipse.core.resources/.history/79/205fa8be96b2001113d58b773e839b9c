@@ -1,0 +1,47 @@
+package fileHandling.serialization;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Serialization {
+
+	public static void main(String[] args) {
+
+		// serialization - when be Persist (store or save) object detail in any file
+		// then that is called serialization;
+		// It achieved through using fileOutputStream, ObjectOutputStream;
+		// and for write object in it by writeObject() method;
+		List<Employ> l1 = new ArrayList<>();
+
+		char choice;
+		do {
+			String companyName = IO.readln("Enter the company Name : ");
+			String name = IO.readln("Enter the name : ");
+			String empId = IO.readln("Enter the empId : ");
+			String pswd = IO.readln("Enter the pswd : ");
+
+			Employ e = new Employ(companyName, name, empId, pswd);
+			l1.add(e);
+			choice = IO.readln("For new Object enter Y or y : ").charAt(0);
+
+		} while (choice == 'Y' || choice == 'y');
+
+//		for (Employ x : l1) {
+//			System.out.println(x.getCompany() + " " + x.getName() + " " + x.getEmpId() + " " + x.getPSWD());
+//		}
+
+		try (FileOutputStream fis = new FileOutputStream("Employ.ser");
+				ObjectOutputStream oos = new ObjectOutputStream(fis);) {
+			oos.writeObject(l1);
+			System.out.println("Serialization successful");
+
+		} catch (Exception e) {
+			System.out.println(e);
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}
