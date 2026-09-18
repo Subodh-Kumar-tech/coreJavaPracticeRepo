@@ -1,5 +1,0 @@
-package singletonClass.eagerInitialization;
-
-public class Employ {
-
-}

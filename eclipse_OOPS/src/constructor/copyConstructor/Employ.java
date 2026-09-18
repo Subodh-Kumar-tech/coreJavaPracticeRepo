@@ -3,35 +3,29 @@ package constructor.copyConstructor;
 public class Employ {
 
 	String name;
-	int empId;
-	Address a;
-	
-	
-	Employ(){
-		
-		
+	int age;
+	double salary;
+
+	Employ() {
+
 	}
-	
-	Employ(String name, int empId, Address a){
-		this.name=name;
-		this.empId=empId;
-		this.a=a;
-		
+
+	Employ(String name, int age, double salary) {
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+
 	}
-	
-	Employ(Employ x){
-		
-		this(x.name,x.empId,x.a);
-		
-		
-		
+
+	Employ(Employ x) {
+//		this(x.name,x.age,x.salary);
+		this.name = x.name;
+		this.age = x.age;
+		this.salary = x.salary;
 	}
-	
+
 	public String toString() {
-		return "Name : "+name+"\tEmpId :"+empId+"\tAddress [ City : "+a.city+"\tState : "+a.state+" \tPin : "+a.pin+" ]";
-		
+		return "Name : " + name + "\tAge : " + age + "\tSalary : " + salary;
 	}
-	
-	
-	
+
 }
