@@ -1,0 +1,11 @@
+package TimeAndDateApi;
+
+import java.time.Clock;
+
+public class Program6 {
+	public static void main(String[] args) {
+
+		Clock c1 = Clock.systemDefaultZone();
+		System.out.println(c1);
+	}
+}
