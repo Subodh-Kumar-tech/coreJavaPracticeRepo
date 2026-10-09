@@ -476,3 +476,24 @@
 2026-10-08 16:18:35.908: [INFO] BookmarkModelLoaded, ids_reassigned: 0
 2026-10-08 16:18:35.908: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-08 16:18:35.908: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-08 19:09:48.744: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-09 12:33:59.327: [INFO] CurrentProfilePath: D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-09 12:33:59.327: [INFO] Profiles total count: 1
+2026-10-09 12:33:59.327: [INFO] Profile: name=Profile 1 path=D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-05T13:10:14.898Z
+2026-10-09 12:33:59.327: [INFO] LastUsedProfileDir: D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-09 12:33:59.327: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-05T13:10:14.898Z
+2026-10-09 12:33:59.327: [INFO] OnDoneLoading sync enabled: 0
+2026-10-09 12:33:59.327: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-09 12:33:59.327: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-09 12:33:59.327: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-09 12:34:19.259: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-09 13:10:45.193: [INFO] CurrentProfilePath: D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-09 13:10:45.193: [INFO] Profiles total count: 1
+2026-10-09 13:10:45.193: [INFO] Profile: name=Profile 1 path=D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-05T13:10:14.898Z
+2026-10-09 13:10:45.193: [INFO] LastUsedProfileDir: D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-09 13:10:45.193: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\QSPIDER\QSPIDER\CODE\JAVA_Shambhu_sir\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-05T13:10:14.898Z
+2026-10-09 13:10:45.193: [INFO] OnDoneLoading sync enabled: 0
+2026-10-09 13:10:45.193: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-09 13:10:45.193: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-09 13:10:45.193: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-09 13:41:44.594: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
