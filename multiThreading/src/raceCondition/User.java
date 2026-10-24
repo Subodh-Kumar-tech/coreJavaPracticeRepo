@@ -16,15 +16,11 @@ public class User extends Thread {
 		this.n = n;
 	}
 
-	public void increase() {
-		for (int i = 1; i <= n; i++) {
-			b.count++;
-		}
-	}
-
 	@Override
 	public void run() {
-		increase();
+		for (int i = 1; i <= n; i++) {
+			b.increase();
+		}
 	}
 
 }
